@@ -1,0 +1,30 @@
+# Standard commands and definitions
+> init
+<<<
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> commit "Two files"
+<<<
+> rm f.txt
+<<<
+* f.txt
++ f.txt wug.txt
+> add f.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<

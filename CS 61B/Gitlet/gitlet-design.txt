@@ -1,0 +1,38 @@
+Gitlet Design Document
+----------------------
+
+Classes and Data Structures
+---------------------------
+*** Main ***
+Controls all commands
+*** CommitObject ***
+Object for each Commit
+*** Blob ***
+Object for each Blob
+*** Repo ***
+Object for the entire repository
+*** Stage ***
+Keeps track of what blobs are staged, tracked, etc.
+Keeps track of head
+*** Command ***
+Parent class for all commands
+*** Init ***
+Class to control init command
+*** Add ***
+Class to control add command
+*** Commit ***
+Class to control commit command
+*** Checkout ***
+Class to control checkout command
+*** Log ***
+Class to control log command
+
+Algorithms
+----------
+*** Blob ***
+Attributes SHA1, name, and contents are private
+Override hashCode and equals methods to compare SHA1
+
+Persistence
+-----------
+.gitlet will have a staging folder and a commits folder
