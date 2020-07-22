@@ -20,3 +20,11 @@ CS 61B:
   Tablut - a Nordic strategy board game with a playable AI that adapts to your strategy
   
   Gitlet - a fully functional version-control system based off of Git
+
+DS 100:
+
+  proj1 - an analysis and visualization of data for restaurant food safety scores for restaurants in SF (two parts)
+  
+  proj2 - a feature engineering-based classifier to distinguish spam emails from ham emails (two parts)
+  
+  finalproj - a model to predict the ppg average of a player in the NBA given their NCAA statistics
